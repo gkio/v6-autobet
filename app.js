@@ -11,12 +11,12 @@ app.get('/',function(req, res){
 	res.send('hello')
 })
 //--NOTIFICATION-------------
-// notifier.notify({
-//   'title': '⚽️Arsenal vs Manchester [ X ] 💰⚽️',
-//   'message': '💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶',
-//   icon: path.join(__dirname, 'beticon.png'),
-//   sound:'Glass'
-// });
+notifier.notify({
+  'title': 'Arsenal vs Manchester [ X ] 💰',
+  'message': '💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶💶',
+  icon: path.join(__dirname, 'img/beticon.png'),
+  sound:'Glass'
+});
 //--NOTIFICATION-END------------
 
 var getMatches = function(){
