@@ -8,3 +8,9 @@ $ cd v6-autobet
 $ npm install
 $ npm start
 ```
+
+
+Creator and owner!
+----
+
+GK.IO
