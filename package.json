@@ -1,0 +1,26 @@
+{
+  "name": "v6-autobet",
+  "version": "6.1.0",
+  "description": "program with auto betting system ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkio/v6-autobet.git"
+  },
+  "author": "GKIORA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkio/v6-autobet/issues"
+  },
+  "homepage": "https://github.com/gkio/v6-autobet#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "colors": "^1.1.2",
+    "express": "^4.13.4",
+    "node-notifier": "^4.5.0",
+    "request": "^2.69.0"
+  }
+}
